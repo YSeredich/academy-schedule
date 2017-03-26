@@ -1,0 +1,522 @@
+.container {
+    min-width: 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    color: #fff;
+    background-color: #e61400;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.title__name {
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.filters {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.filters__title {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.filters__item {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.filters__item + .filters__item {
+    margin-left: 25px;
+}
+
+.filters__label {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 20px;
+}
+
+.filters__label img {
+    width: 100%;
+}
+
+.filters__select {
+    display: inline-block;
+    vertical-align: bottom;
+    min-width: 160px;
+    padding: 5px 10px;
+    background: none;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.filters__reset-btn {
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 5px;
+    background: none;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: #555;
+    border-bottom: 1px dashed #555;
+    transition: color 0.2s ease-out, border-bottom 0.2s ease-out;
+}
+
+.filters__reset-btn:hover {
+    color: #000;
+    border-bottom: 1px dashed transparent;
+}
+
+.schedule {
+    margin: 0 auto 30px;
+}
+
+.schedule__empty {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.schedule__header {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.schedule__title {
+    display: inline-block;
+    padding: 14px 10px 18px;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.schedule__title--date {
+    width: 10%;
+}
+
+.schedule__title--name {
+    width: 36%;
+}
+
+.schedule__title--teacher,
+.schedule__title--place {
+    width: 22.5%;
+}
+
+.schedule__title--school {
+    width: 9%;
+}
+
+.schedule__item {
+    max-width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    font-size: 0;
+}
+
+.lecture__link {
+    position: relative;
+    display: inline-block;
+    padding-right: 22px;
+    color: #000;
+    text-decoration: none;
+    cursor: default;
+}
+
+.lecture__more-btn {
+    display: none;
+    position: absolute;
+    width: 17px;
+    right: 0;
+    top: -5px;
+}
+
+.lecture__more-btn-icon {
+    width: 100%;
+    max-width: 50px;
+}
+
+.lecture__teacher-name {
+    cursor: pointer;
+}
+
+.lecture--passed .lecture__link {
+    cursor: pointer;
+}
+
+.lecture--passed .lecture__more-btn {
+    display: inline-block;
+}
+
+.lecture__date {
+    display: inline-block;
+    vertical-align: top;
+    width: 10%;
+}
+
+.lecture__info {
+    display: inline-block;
+    vertical-align: top;
+    width: 90%;
+}
+
+.lecture__item {
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 10px 18px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.lecture__item--date {
+    color: #555;
+}
+
+.lecture__item--name {
+    width: 40%;
+}
+
+.lecture__item--school {
+    color: #555;
+    width: 10%;
+}
+
+.lecture__item--teacher,
+.lecture__item--place {
+    color: #999;
+    width: 25%;
+}
+
+.legend {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #999;
+    font-size: 13px;
+}
+
+.legend__item {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.legend__item::after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 2px;
+    height: 13px;
+    margin-left: 5px;
+}
+
+.legend__item--shri::after {
+    background-color: #f62320;
+}
+
+.legend__item--shmr::after {
+    background-color: #a35dab;
+}
+
+.legend__item--shmd::after {
+    background-color: #ffcd3a;
+}
+
+.teacher {
+    display: flex;
+}
+
+.teacher__photo {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.teacher__image {
+    width: 100%;
+}
+
+.teacher__info {
+    width: 70%;
+}
+
+.teacher__name {
+    margin-top: 0;
+}
+
+.teacher__description {
+    font-size: 14px;
+    color: #555;
+}
+
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal__content {
+    position: relative;
+    width: 80%;
+    max-width: 640px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 30px #ccc;
+    background-color: #fefefe;
+}
+
+.modal__close {
+    position: absolute;
+    display: block;
+    width: 14px;
+    height: 14px;
+    right: 10px;
+    top: 10px;
+    opacity: 0.5;
+    transition: opacity 0.2s ease-out;
+    cursor: pointer;
+    background: url('../source/images/close.svg') no-repeat;
+    background-size: 14px 14px;
+}
+
+.modal__close:hover,
+.modal__close:focus {
+    opacity: 1;
+}
+
+@media(min-width: 769px) {
+    .lecture:hover {
+        background: #f8f8f8;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .filters {
+        margin-bottom: 0;
+        text-align: right;
+    }
+
+    .filters__item {
+        display: block;
+    }
+
+    .filters__reset-btn {
+        margin-bottom: 15px;
+    }
+
+    .schedule {
+        display: block;
+    }
+
+    .schedule__header {
+        display: none;
+    }
+
+    .schedule__item {
+        display: block;
+        position: relative;
+        margin-bottom: 10px;
+        padding: 10px 10px 10px 10px;
+        border: 1px solid #ccc;
+    }
+
+    .lecture--passed .lecture__item--date {
+        padding-top: 45px;
+        font-size: 13px;
+        color: #999;
+    }
+
+    .lecture--passed .lecture__date {
+        vertical-align: bottom;
+    }
+
+    .lecture--passed .lecture__more-btn {
+        width: 26.67%;
+        left: -33.33%;
+        top: 0;
+        text-align: center;
+    }
+
+    .lecture__date {
+        width: 20%;
+        margin-right: 5%;
+        line-height: 1;
+    }
+
+    .lecture__info {
+        width: 75%;
+    }
+
+    .lecture__link {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .lecture__item {
+        display: block;
+        border: 0;
+        padding: 0 0 8px;
+    }
+
+    .lecture__item--name {
+        width: 100%;
+        padding-bottom: 15px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .lecture__item--date {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .lecture__item--teacher,
+    .lecture__item--place {
+        font-size: 13px;
+        width: auto;
+        display: inline-block;
+    }
+
+    .lecture__item--teacher {
+        margin-right: 5px;
+    }
+
+    .lecture__item--place {
+        padding-right: 45px;
+    }
+
+    .lecture__item--school {
+        padding: 0;
+    }
+
+    .lecture__item--teacher::before {
+        content: '';
+        display: inline-block;
+        vertical-align: bottom;
+        width: 17px;
+        height: 18px;
+        margin-right: 5px;
+        background: url('../source/images/avatar.svg') no-repeat;
+        background-size: 17px 18px;
+    }
+
+    .lecture__item--place::before {
+        content: '';
+        display: inline-block;
+        vertical-align: bottom;
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+        background: url('../source/images/placeholder.svg') no-repeat;
+        background-size: 18px 18px;
+    }
+
+    .lecture__school-text {
+        position: absolute;
+        width: auto;
+        max-width: 30px;
+        bottom: 2px;
+        right: 10px;
+        font-size: 13px;
+        text-align: right;
+    }
+
+    .lecture__school-colors {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: -1px;
+        width: 3px;
+    }
+
+    .lecture__school-color {
+        width: 3px;
+        min-height: 5px;
+        flex-grow: 1;
+    }
+
+    .lecture__school-color--shri {
+        background-color: #f62320;
+    }
+
+    .lecture__school-color--shmr {
+        background-color: #a35dab;
+    }
+
+    .lecture__school-color--shmd {
+        background-color: #ffcd3a;
+    }
+
+    .legend__item {
+        display: block;
+        text-align: right;
+        margin-right: 0;
+    }
+
+    .teacher__photo {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media(max-width: 640px) {
+    .teacher__photo {
+        width: 150px;
+        height: 150px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .teacher {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .teacher__name {
+        margin-bottom: 10px;
+    }
+
+    .teacher__info {
+        width: 100%;
+    }
+}
+
+.invisible {
+    display: none;
+}

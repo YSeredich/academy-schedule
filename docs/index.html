@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Расписание лекций проекта «Мобилизация»</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container header__inner">
+        <div class="header__logo">
+            <img src="source/images/logo.svg" alt="Яндекс">
+        </div>
+        <div class="header__content">yseredich</div>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <h2 class="title">
+            Расписание лекций проекта <span class="title__name">«Мобилизация 2017»</span>
+        </h2>
+
+        <div class="filters">
+            <div class="filters__item">
+                <label class="filters__label" for="#teachersSelect"><img src="source/images/avatar.svg" alt=""></label>
+                <select class="filters__select" name="teachers-select" id="#teachersSelect">
+                    <option value="all">все</option>
+                </select>
+            </div>
+            <div class="filters__item">
+                <label class="filters__label" for="#schoolSelect"><img src="source/images/school.svg" alt=""></label>
+                <select class="filters__select" name="teachers-select" id="#schoolSelect">
+                    <option value="all">все</option>
+                    <option value="0">ШМД</option>
+                    <option value="1">ШМР</option>
+                    <option value="2">ШРИ</option>
+                </select>
+            </div>
+            <div class="filters__item">
+                <label class="filters__label" for="#dateSelect"><img src="source/images/time.svg" alt=""></label>
+                <select class="filters__select" name="teachers-select" id="#dateSelect">
+                    <option value="all">все</option>
+                    <option value="passed">прошедшие</option>
+                    <option value="future">будущие</option>
+                </select>
+            </div>
+            <div class="filters__item">
+                <button class="filters__reset-btn">Сбросить</button>
+            </div>
+        </div>
+
+        <div class="schedule">
+
+            <div class="schedule__header">
+                <div class="schedule__title schedule__title--date">Дата</div>
+                <div class="schedule__title schedule__title--name">Тема</div>
+                <div class="schedule__title schedule__title--teacher">Лектор</div>
+                <div class="schedule__title schedule__title--place">Аудитория</div>
+                <div class="schedule__title schedule__title--school">Школа</div>
+            </div>
+
+            <div id="#scheduleContent"></div>
+
+        </div>
+        <div class="legend">
+            <div class="legend__item legend__item--shri">Школа разработки интерфейсов - ШРИ</div>
+            <div class="legend__item legend__item--shmr">Школа мобильной разработки - ШМР</div>
+            <div class="legend__item legend__item--shmd">Школа мобильного дизайна - ШМД</div>
+        </div>
+    </div>
+
+</main>
+<footer></footer>
+<div id="#teacherModal" class="modal invisible">
+    <div class="modal__content teacher">
+        <span class="modal__close"></span>
+        <div class="teacher__photo">
+            <img class="teacher__image" src="" alt="">
+        </div>
+        <div class="teacher__info">
+            <h2 class="teacher__name"></h2>
+            <div class="teacher__description"></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="build/build.js"></script>
+</body>
+</html>

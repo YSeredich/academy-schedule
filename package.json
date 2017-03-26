@@ -1,0 +1,10 @@
+{
+  "name": "schedule",
+  "version": "1.0.0",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.2.2",
+    "webpack": "^2.3.2"
+  }
+}
