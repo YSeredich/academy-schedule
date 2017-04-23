@@ -164,7 +164,7 @@ export const teachers = {
 
 export const lectures = [
     {
-        date: new Date(2017, 2, 20),
+        date: new Date(2017, 3, 20),
         name: 'Адаптивная вёрстка',
         link: 'https://events.yandex.ru/lib/talks/4162/',
         teachersIDs: ['dushkin_d'],
@@ -172,7 +172,7 @@ export const lectures = [
         schools: [schoolType.SHRI]
     },
     {
-        date: new Date(2017, 2, 27),
+        date: new Date(2017, 3, 27),
         name: 'Работа с сенсорным пользовательским вводом',
         link: 'https://events.yandex.ru/lib/talks/4172/',
         teachersIDs: ['dushkin_d'],
@@ -180,7 +180,7 @@ export const lectures = [
         schools: [schoolType.SHRI]
     },
     {
-        date: new Date(2017, 3, 3),
+        date: new Date(2017, 4, 3),
         name: 'Мультимедиа: возможности браузера',
         link: 'https://events.yandex.ru/lib/talks/4197/',
         teachersIDs: ['vasiliev_m'],
@@ -188,7 +188,7 @@ export const lectures = [
         schools: [schoolType.SHRI]
     },
     {
-        date: new Date(2017, 3, 10),
+        date: new Date(2017, 4, 10),
         name: 'Нативные приложения на веб-технологиях',
         link: 'https://events.yandex.ru/lib/talks/4230/',
         teachersIDs: ['berezhnoi_s'],
@@ -196,7 +196,7 @@ export const lectures = [
         schools: [schoolType.SHRI]
     },
     {
-        date: new Date(2017, 3, 17),
+        date: new Date(2017, 4, 17),
         name: 'Клиентская оптимизация: базовые знания и лучшие практики',
         link: 'https://events.yandex.ru/lib/talks/4292/',
         teachersIDs: ['morozov_a'],
@@ -204,7 +204,7 @@ export const lectures = [
         schools: [schoolType.SHRI]
     },
     {
-        date: new Date(2017, 3, 24),
+        date: new Date(2017, 4, 24),
         name: 'Клиентская оптимизация: мобильные устройства и инструменты',
         link: 'https://events.yandex.ru/lib/talks/4307/',
         teachersIDs: ['karev_i'],
@@ -212,7 +212,7 @@ export const lectures = [
         schools: [schoolType.SHRI]
     },
     {
-        date: new Date(2017, 4, 1),
+        date: new Date(2017, 5, 1),
         name: 'Инфраструктура веб-проектов',
         link: 'https://events.yandex.ru/lib/talks/4323/',
         teachersIDs: ['prokopuk_a'],
@@ -220,7 +220,7 @@ export const lectures = [
         schools: [schoolType.SHRI]
     },
     {
-        date: new Date(2017, 4, 1),
+        date: new Date(2017, 5, 1),
         name: 'Инструменты разработки мобильного фронтенда',
         link: 'https://events.yandex.ru/lib/talks/4324/',
         teachersIDs: ['prokopuk_a'],
@@ -228,7 +228,7 @@ export const lectures = [
         schools: [schoolType.SHRI]
     },
     {
-        date: new Date(2017, 2, 19),
+        date: new Date(2017, 3, 19),
         name: 'Java Blitz (Часть&nbsp;1)',
         link: 'https://events.yandex.ru/lib/talks/4160/',
         teachersIDs: ['matsukov_e'],
@@ -236,7 +236,7 @@ export const lectures = [
         schools: [schoolType.SHMR]
     },
     {
-        date: new Date(2017, 2, 19),
+        date: new Date(2017, 3, 19),
         name: 'Git & Workflow',
         link: 'https://events.yandex.ru/lib/talks/4161/',
         teachersIDs: ['skladanov_d'],
@@ -244,7 +244,7 @@ export const lectures = [
         schools: [schoolType.SHMR, schoolType.SHRI]
     },
     {
-        date: new Date(2017, 2, 25),
+        date: new Date(2017, 3, 25),
         name: 'Java Blitz (Часть&nbsp;2)',
         link: 'https://events.yandex.ru/lib/talks/4168/',
         teachersIDs: ['matsukov_e'],
@@ -252,7 +252,7 @@ export const lectures = [
         schools: [schoolType.SHMR]
     },
     {
-        date: new Date(2017, 2, 25),
+        date: new Date(2017, 3, 25),
         name: 'MyFirstApp (Часть&nbsp;1)',
         link: 'https://events.yandex.ru/lib/talks/4169/',
         teachersIDs: ['grigoriev_r'],
@@ -260,7 +260,7 @@ export const lectures = [
         schools: [schoolType.SHMR]
     },
     {
-        date: new Date(2017, 3, 2),
+        date: new Date(2017, 4, 2),
         name: 'MyFirstApp (Часть&nbsp;2)',
         link: 'https://events.yandex.ru/lib/talks/4195/',
         teachersIDs: ['grigoriev_r'],
@@ -268,7 +268,7 @@ export const lectures = [
         schools: [schoolType.SHMR]
     },
     {
-        date: new Date(2017, 3, 2),
+        date: new Date(2017, 4, 2),
         name: 'ViewGroup',
         link: 'https://events.yandex.ru/lib/talks/4196/',
         teachersIDs: ['shcherbinin_a'],
@@ -276,7 +276,7 @@ export const lectures = [
         schools: [schoolType.SHMR]
     },
     {
-        date: new Date(2017, 3, 9),
+        date: new Date(2017, 4, 9),
         name: 'Background',
         link: 'https://events.yandex.ru/lib/talks/4222/',
         teachersIDs: ['makarov_a'],
@@ -284,7 +284,7 @@ export const lectures = [
         schools: [schoolType.SHMR]
     },
     {
-        date: new Date(2017, 3, 9),
+        date: new Date(2017, 4, 9),
         name: 'RecyclerView',
         link: 'https://events.yandex.ru/lib/talks/4223/',
         teachersIDs: ['tagakov_v'],
@@ -292,7 +292,7 @@ export const lectures = [
         schools: [schoolType.SHMR]
     },
     {
-        date: new Date(2017, 3, 16),
+        date: new Date(2017, 4, 16),
         name: 'Service & Broadcasts',
         link: 'https://events.yandex.ru/lib/talks/4275/',
         teachersIDs: ['makarov_a'],
@@ -300,7 +300,7 @@ export const lectures = [
         schools: [schoolType.SHMR]
     },
     {
-        date: new Date(2017, 3, 16),
+        date: new Date(2017, 4, 16),
         name: 'Drawing',
         link: 'https://events.yandex.ru/lib/talks/4276/',
         teachersIDs: ['shcherbinin_a'],
@@ -308,7 +308,7 @@ export const lectures = [
         schools: [schoolType.SHMR]
     },
     {
-        date: new Date(2017, 3, 23),
+        date: new Date(2017, 4, 23),
         name: 'Content provider',
         link: 'https://events.yandex.ru/lib/talks/4296/',
         teachersIDs: ['hromtsov_m'],
@@ -316,7 +316,7 @@ export const lectures = [
         schools: [schoolType.SHMR]
     },
     {
-        date: new Date(2017, 3, 23),
+        date: new Date(2017, 4, 23),
         name: 'SQL&SQLite',
         link: 'https://events.yandex.ru/lib/talks/4297/',
         teachersIDs: ['hromtsov_m'],
@@ -324,7 +324,7 @@ export const lectures = [
         schools: [schoolType.SHMR]
     },
     {
-        date: new Date(2017, 3, 30),
+        date: new Date(2017, 4, 30),
         name: 'Fragments (Часть&nbsp;1)',
         link: 'https://events.yandex.ru/lib/talks/4320/',
         teachersIDs: ['zagaevskii_d'],
@@ -332,7 +332,7 @@ export const lectures = [
         schools: [schoolType.SHMR]
     },
     {
-        date: new Date(2017, 3, 30),
+        date: new Date(2017, 4, 30),
         name: 'Fragments (Часть&nbsp;2)',
         link: 'https://events.yandex.ru/lib/talks/4321/',
         teachersIDs: ['zagaevskii_d'],
@@ -340,7 +340,7 @@ export const lectures = [
         schools: [schoolType.SHMR]
     },
     {
-        date: new Date(2017, 4, 7),
+        date: new Date(2017, 5, 7),
         name: 'MVP&Co',
         link: 'https://events.yandex.ru/lib/talks/4346/',
         teachersIDs: ['popov_d'],
@@ -348,7 +348,7 @@ export const lectures = [
         schools: [schoolType.SHMR]
     },
     {
-        date: new Date(2017, 4, 14),
+        date: new Date(2017, 5, 14),
         name: 'Debugging & Polishing',
         link: 'https://events.yandex.ru/lib/talks/4352/',
         teachersIDs: ['sergeev_i'],
@@ -356,7 +356,7 @@ export const lectures = [
         schools: [schoolType.SHMR]
     },
     {
-        date: new Date(2017, 2, 18),
+        date: new Date(2017, 3, 18),
         name: 'Идея, исследование, концепт (Часть&nbsp;1)',
         link: 'https://events.yandex.ru/lib/talks/4158/',
         teachersIDs: ['ten_a'],
@@ -364,7 +364,7 @@ export const lectures = [
         schools: [schoolType.SHMD]
     },
     {
-        date: new Date(2017, 2, 18),
+        date: new Date(2017, 3, 18),
         name: 'Идея, исследование, концепт (Часть&nbsp;2)',
         link: 'https://events.yandex.ru/lib/talks/4159/',
         teachersIDs: ['ten_a'],
@@ -372,7 +372,7 @@ export const lectures = [
         schools: [schoolType.SHMD]
     },
     {
-        date: new Date(2017, 2, 25),
+        date: new Date(2017, 3, 25),
         name: 'Особенности проектирования мобильных интерфейсов',
         link: 'https://events.yandex.ru/lib/talks/4167/',
         teachersIDs: ['vasunin_n'],
@@ -380,7 +380,7 @@ export const lectures = [
         schools: [schoolType.SHMD]
     },
     {
-        date: new Date(2017, 3, 1),
+        date: new Date(2017, 4, 1),
         name: 'Продукт и платформа',
         link: 'https://events.yandex.ru/lib/talks/4189/',
         teachersIDs: ['kalabin_s'],
@@ -388,7 +388,7 @@ export const lectures = [
         schools: [schoolType.SHMD]
     },
     {
-        date: new Date(2017, 3, 1),
+        date: new Date(2017, 4, 1),
         name: 'Природа операционных систем',
         link: 'https://events.yandex.ru/lib/talks/4190/',
         teachersIDs: ['vasunin_n'],
@@ -396,7 +396,7 @@ export const lectures = [
         schools: [schoolType.SHMD, schoolType.SHRI, schoolType.SHMR]
     },
     {
-        date: new Date(2017, 3, 8),
+        date: new Date(2017, 4, 8),
         name: 'Прототипирование как процесс',
         link: 'https://events.yandex.ru/lib/talks/4267/',
         teachersIDs: ['tomilov_s', 'staritsina_d'],
@@ -404,7 +404,7 @@ export const lectures = [
         schools: [schoolType.SHMD]
     },
     {
-        date: new Date(2017, 3, 8),
+        date: new Date(2017, 4, 8),
         name: 'Инструмент под задачи',
         link: 'https://events.yandex.ru/lib/talks/4268/',
         teachersIDs: ['tomilov_s', 'staritsina_d'],
@@ -412,7 +412,7 @@ export const lectures = [
         schools: [schoolType.SHMD]
     },
     {
-        date: new Date(2017, 3, 15),
+        date: new Date(2017, 4, 15),
         name: 'Анимации',
         link: 'https://events.yandex.ru/lib/talks/4266/',
         teachersIDs: ['tomilov_s', 'staritsina_d'],
@@ -420,7 +420,7 @@ export const lectures = [
         schools: [schoolType.SHMD, schoolType.SHRI]
     },
     {
-        date: new Date(2017, 3, 15),
+        date: new Date(2017, 4, 15),
         name: 'Design Everything',
         link: 'https://events.yandex.ru/lib/talks/4269/',
         teachersIDs: ['rijshouwer_k', 'treub_j'],
@@ -428,7 +428,7 @@ export const lectures = [
         schools: [schoolType.SHMD]
     },
     {
-        date: new Date(2017, 3, 22),
+        date: new Date(2017, 4, 22),
         name: 'Развите продукта',
         link: 'https://events.yandex.ru/lib/talks/4295/',
         teachersIDs: ['gevak_a'],
@@ -436,7 +436,7 @@ export const lectures = [
         schools: [schoolType.SHMD]
     },
     {
-        date: new Date(2017, 3, 29),
+        date: new Date(2017, 4, 29),
         name: 'Исследование интерфейсов',
         link: 'https://events.yandex.ru/lib/talks/4319/',
         teachersIDs: ['kondratiev_a'],
@@ -444,7 +444,7 @@ export const lectures = [
         schools: [schoolType.SHMD]
     },
     {
-        date: new Date(2017, 4, 6),
+        date: new Date(2017, 5, 6),
         name: 'Работа в команде',
         link: 'https://events.yandex.ru/lib/talks/4345/',
         teachersIDs: ['podorojnii_u'],
@@ -452,7 +452,7 @@ export const lectures = [
         schools: [schoolType.SHMD, schoolType.SHRI, schoolType.SHMR]
     },
     {
-        date: new Date(2017, 4, 13),
+        date: new Date(2017, 5, 13),
         name: 'Айдентика',
         link: 'https://events.yandex.ru/lib/talks/4349/',
         teachersIDs: ['moruz_d', 'filippov_j'],

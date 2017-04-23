@@ -17,7 +17,7 @@ const lectureMarkup = function (lecture) {
                     <div class="lecture__item lecture__item--name">
                         <a href="${dateNow > lecture.date ? lecture.link : ''}" class="lecture__link">${lecture.name}
                             <div class="lecture__more-btn">
-                                <img src="source/images/youtube.svg" class="lecture__more-btn-icon" alt="">
+                                <img src="images/youtube.svg" class="lecture__more-btn-icon" alt="">
                             </div>
                         </a>
                     </div>

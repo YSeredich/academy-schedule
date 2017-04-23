@@ -68,6 +68,22 @@ import {teachers, lectures} from './data/data';
         close.addEventListener('click', function () {
             modal.classList.add('invisible');
         });
+
+        modal.addEventListener('click', function (e) {
+            if (e.target == modal) {
+                modal.classList.add('invisible');
+            }
+
+        });
+
+        window.addEventListener("keydown", function(event) {
+            if (event.keyCode == 27) {
+                if (!modal.classList.contains("invisible")) {
+                    modal.classList.add('invisible');
+                }
+
+            }
+        });
     }
 
     function bindFiltersHandlers() {
